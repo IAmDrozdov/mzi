@@ -110,4 +110,4 @@ if __name__ == '__main__':
     dh = DeffiHeldman(d_a, d_b, G)
     shared_key = dh.run()
 
-    print(f"shared_key", shared_key)
+    print('shared_key', shared_key)
